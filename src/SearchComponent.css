@@ -1,0 +1,120 @@
+/* Container styles */
+.search-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, hwb(0 59% 41%), #aba9a9);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+}
+
+/* Input styles */
+.search-input {
+  padding: 12px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+/* Checkbox styles */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+/* Card container for responsiveness */
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card styles */
+.card {
+  background: white;
+  color: #333;
+  border-radius: 12px;
+  width: 200px;
+  height: 300px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  overflow: hidden; 
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image styles */
+.card-image {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Card content */
+.card-content {
+  padding: 15px;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pagination button:hover {
+  background: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff4d4d;
+  margin-top: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 90%; 
+  }
+
+  .pagination button {
+    padding: 8px; 
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "products": [
+      { "id": 1, "name": "Laptop" },
+      { "id": 2, "name": "Smartphone" },
+      { "id": 3, "name": "Headphones" },
+      { "id": 4, "name": "Keyboard" },
+      { "id": 5, "name": "Mouse" },
+      { "id": 6, "name": "Monitor" },
+      { "id": 7, "name": "Printer" },
+      { "id": 8, "name": "Tablet" },
+      { "id": 9, "name": "Charger" },
+      { "id": 10, "name": "USB Cable" }
+     
+    ]
+  }
+  
