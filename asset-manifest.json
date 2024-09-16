@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/stirlingsmith1/advanced-search-app/static/css/main.c36c56cb.css",
+    "main.js": "/stirlingsmith1/advanced-search-app/static/js/main.b2feed65.js",
+    "static/js/453.16f20d7c.chunk.js": "/stirlingsmith1/advanced-search-app/static/js/453.16f20d7c.chunk.js",
+    "index.html": "/stirlingsmith1/advanced-search-app/index.html",
+    "main.c36c56cb.css.map": "/stirlingsmith1/advanced-search-app/static/css/main.c36c56cb.css.map",
+    "main.b2feed65.js.map": "/stirlingsmith1/advanced-search-app/static/js/main.b2feed65.js.map",
+    "453.16f20d7c.chunk.js.map": "/stirlingsmith1/advanced-search-app/static/js/453.16f20d7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c36c56cb.css",
+    "static/js/main.b2feed65.js"
+  ]
+}
